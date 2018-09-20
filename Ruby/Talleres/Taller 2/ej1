@@ -1,0 +1,10 @@
+
+Se desea implementar un conjunto de clases que modelen el sistema de tarjetas de viaje en subte.
+
+Existen dos tipos de tarjetas:
+
+    
+Cantidad fija de viajes: se adquiere con cierta cantidad de viajes, y una vez consumida dicha cantidad, se desecha. Esta tarjeta no es afectada por modificaciones en el precio del pasaje.
+    
+Recargable: es una tarjeta que almacena un saldo. Se adquiere inicialmente sin saldo, y se la puede recargar en cualquier momento. Al utilizarla para realizar un viaje se descuenta del saldo el precio actual del pasaje.
+

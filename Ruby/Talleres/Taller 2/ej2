@@ -1,0 +1,3 @@
+Se desea ahora agregar el soporte para una tarjeta recargable con tarifa de descuento fija. La misma cuenta con un descuento asociado que se aplica al momento de calcular el costo del viaje. 
+
+Por ejemplo, tomando un precio de viaje de $8.00, al contar con una tarjeta con un descuento del 50%, cada viaje descontará $4.00 del saldo de la tarjeta.
