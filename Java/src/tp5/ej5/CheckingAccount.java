@@ -8,7 +8,9 @@ public class CheckingAccount extends BankAccount {
     }
 
     public void extract(double amount){
-
-        throw 'No cuenta con los fondos necesarios' if
+        if(amount > money + draft){
+            throw new IllegalArgumentException("No cuenta con los fondos necesarios");
+        }
+        money -= amount;
     }
 }

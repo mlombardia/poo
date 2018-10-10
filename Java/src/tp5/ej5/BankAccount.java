@@ -7,4 +7,9 @@ abstract class BankAccount {
     protected void deposit(double amount){
         money += amount;
     }
+
+    @Override
+    public String toString(){
+        return String.format("Cuenta %d con saldo: %g", id, money);
+    }
 }
