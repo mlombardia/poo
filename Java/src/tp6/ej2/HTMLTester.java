@@ -22,5 +22,6 @@ public class HTMLTester {
         text.setText("Ejemplo");
         System.out.println(linkBoldText1);
         System.out.println(linkBoldText2);
+        System.out.println("TExt");
     }
 }
