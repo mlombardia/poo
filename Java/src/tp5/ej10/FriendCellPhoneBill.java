@@ -18,15 +18,31 @@ public class FriendCellPhoneBill extends CellPhoneBill {
 
     @Override
     public double proccessBill(){
-
+        double total = 0;
+        for(int i = 0; i < callsIndex; i++){
+            boolean friendlyCall = false;
+            for(int j = 0; j < friendsIndex && !friendlyCall; j++){
+                if(calls[i].getTo().compareTo(friends[j]) == 0){
+                    friendlyCall = true;
+                }
+            }
+            total += friendlyCall? calls[i].getCost() * cost : calls[i].getCost();
+        }
+        return total;
     }
 
-    public void setCost(){
+    public void setCost(double cost){
         this.cost = cost;
     }
 
     public void addFriend(String friend) throws TooManyFriendsException, AlreadyExistsFriendException{
-
+        if(friendsIndex == friendsLimit){
+            throw new TooManyFriendsException();
+        }
+        if(containsFriend(friend)){
+            throw new AlreadyExistsFriendException();
+        }
+        friends[friendsIndex++] = friend;
     }
 
     private boolean containsFriend(String friend){
