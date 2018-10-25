@@ -1,4 +1,4 @@
-package tp6.ej4;
+package tp6.ej5;
 
 public class Interval {
     private double start, end, increment;
@@ -97,5 +97,25 @@ public class Interval {
         result = 31 * result + Double.hashCode(end);
         result = 31 * result + Double.hashCode(increment);
         return result;
+    }
+
+    public int count(IntervalCondition condition){
+        int answer = 0;
+        double inicio, fin, incremento;
+        if(start <= end){
+            inicio = start;
+            fin = end;
+            incremento = increment;
+        }else{
+            inicio = end;
+            fin = start;
+            incremento = -increment;
+        }
+        for(double rec = inicio; rec <= fin; rec += incremento){
+            if(condition.satisfies(rec)){
+                answer++;
+            }
+        }
+        return answer;
     }
 }
