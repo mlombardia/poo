@@ -14,26 +14,7 @@
     <favorites_list name="Java" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AccessStackTester.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tp7/ej6/AccessStackTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PairTester.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tp7/ej7/PairTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,11 +28,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tp6/ej3/CompositeFunction.java" />
-        <option value="$PROJECT_DIR$/src/tp6/ej4/Interval.java" />
-        <option value="$PROJECT_DIR$/src/tp6/ej4/IntervalTester.java" />
-        <option value="$PROJECT_DIR$/src/tp6/ej5/IntervalCondition.java" />
-        <option value="$PROJECT_DIR$/src/tp6/ej5/Interval.java" />
         <option value="$PROJECT_DIR$/src/tp6/ej5/IntervalTester.java" />
         <option value="$PROJECT_DIR$/src/tp6/ej6/Expression.java" />
         <option value="$PROJECT_DIR$/src/tp6/ej6/SimpleExpression.java" />
@@ -98,6 +74,11 @@
         <option value="$PROJECT_DIR$/src/tp7/ej6/ArrayAccessStack.java" />
         <option value="$PROJECT_DIR$/src/tp7/ej6/AccessStackTester.java" />
         <option value="$PROJECT_DIR$/src/tp7/ej7/PairTester.java" />
+        <option value="$PROJECT_DIR$/src/tp7/ej8/PairTester.java" />
+        <option value="$PROJECT_DIR$/src/tp7/ej8/Pair.java" />
+        <option value="$PROJECT_DIR$/src/tp7/ej9/Ej9.java" />
+        <option value="$PROJECT_DIR$/src/tp7/ej10/Pair.java" />
+        <option value="$PROJECT_DIR$/src/tp7/ej10/PairTester.java" />
       </list>
     </option>
   </component>
@@ -110,7 +91,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="673" />
     <option name="width" value="694" />
     <option name="height" value="735" />
@@ -120,8 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,7 +124,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,17 +135,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="tp5.ej9" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tp7.ej8" />
+      <recent name="tp7.ej6" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maxim\Documents\poo2\Java\src\tp7\ej10" />
       <recent name="C:\Users\maxim\Documents\poo2\Java\src\tp7\ej4" />
       <recent name="C:\Users\maxim\Documents\poo2\Java\src\tp7\ej3" />
       <recent name="C:\Users\maxim\Documents\poo2\Java\src\tp7\ej2" />
       <recent name="C:\Users\maxim\Documents\poo2\Java\src\tp6\ej5" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="tp7.ej6" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="tp5.ej9" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -179,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PairTester (1)">
+  <component name="RunManager" selected="Application.PairTester">
     <configuration name="AccessStackTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tp7.ej6.AccessStackTester" />
       <module name="Java" />
@@ -191,13 +174,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="IntegerListTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tp7.ej3.IntegerListTester" />
+    <configuration name="Ej9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp7.ej9.Ej9" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tp7.ej3.*" />
+          <option name="PATTERN" value="tp7.ej9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,24 +196,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PairTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tp7.ej1.PairTester" />
+    <configuration name="PairTester (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp7.ej8.PairTester" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tp7.ej1.*" />
+          <option name="PATTERN" value="tp7.ej8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="StackTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tp7.ej5.StackTester" />
+    <configuration name="PairTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp7.ej10.PairTester" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tp7.ej5.*" />
+          <option name="PATTERN" value="tp7.ej10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,19 +260,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PairTester" />
-      <item itemvalue="Application.IntegerListTester" />
-      <item itemvalue="Application.StackTester" />
       <item itemvalue="Application.AccessStackTester" />
       <item itemvalue="Application.PairTester (1)" />
+      <item itemvalue="Application.PairTester (2)" />
+      <item itemvalue="Application.Ej9" />
+      <item itemvalue="Application.PairTester" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PairTester" />
+        <item itemvalue="Application.Ej9" />
+        <item itemvalue="Application.PairTester (2)" />
         <item itemvalue="Application.PairTester (1)" />
         <item itemvalue="Application.AccessStackTester" />
-        <item itemvalue="Application.StackTester" />
-        <item itemvalue="Application.IntegerListTester" />
-        <item itemvalue="Application.PairTester" />
       </list>
     </recent_temporary>
   </component>
@@ -317,14 +300,15 @@
       <workItem from="1540474781690" duration="6559000" />
       <workItem from="1540489461173" duration="16297000" />
       <workItem from="1540575305539" duration="2527000" />
+      <workItem from="1540760656636" duration="2632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78413000" />
+    <option name="totallyTimeSpent" value="81045000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="673" y="0" width="694" height="735" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -336,18 +320,18 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.65500796" visible="true" weight="0.15" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6532258" visible="true" weight="0.30088496" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.34499204" side_tool="true" visible="true" weight="0.15" />
+      <window_info id="Favorites" order="6" sideWeight="0.3467742" side_tool="true" visible="true" weight="0.30088496" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,41 +348,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tp6/ej5/Interval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tp6/ej5/IntervalCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tp6/ej6/BinaryExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tp6/ej6/SimpleExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tp6/ej6/NotExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tp6/ej6/Expression.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -574,24 +523,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tp7/ej1/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tp7/ej1/PairTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tp7/ej2/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -674,13 +609,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tp7/ej6/ArrayAccessStackTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tp7/ej6/ArrayAccessStackTester.java" />
     <entry file="file://$PROJECT_DIR$/src/tp7/ej6/ArrayAccessStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -710,10 +639,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tp7/ej1/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tp7/ej2/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tp7/ej7/PairTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tp7/ej8/PairTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tp7/ej8/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tp7/ej9/Ej9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tp7/ej10/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tp7/ej10/PairTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
