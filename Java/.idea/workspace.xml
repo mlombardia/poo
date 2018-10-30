@@ -14,7 +14,26 @@
     <favorites_list name="Java" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ArrayFilterList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tp8/ej8/ArrayFilterList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilterListTester.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tp8/ej8/FilterListTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,10 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tp6/ej9/LinearList.java" />
-        <option value="$PROJECT_DIR$/src/tp6/ej9/LinearListImpl.java" />
-        <option value="$PROJECT_DIR$/src/tp6/ej9/IntegerListTester.java" />
-        <option value="$PROJECT_DIR$/src/tp6/ej10/exceptions/Exception1.java" />
         <option value="$PROJECT_DIR$/src/tp6/ej10/exceptions/Exception2.java" />
         <option value="$PROJECT_DIR$/src/tp6/ej10/exceptions/Exception3.java" />
         <option value="$PROJECT_DIR$/src/tp6/ej10/exceptions/Exception4.java" />
@@ -79,6 +94,10 @@
         <option value="$PROJECT_DIR$/src/tp8/ej7/BagTester.java" />
         <option value="$PROJECT_DIR$/src/tp8/ej7/Bag.java" />
         <option value="$PROJECT_DIR$/src/tp8/ej7/BagImpl.java" />
+        <option value="$PROJECT_DIR$/src/tp8/ej8/Criteria.java" />
+        <option value="$PROJECT_DIR$/src/tp8/ej8/FilterList.java" />
+        <option value="$PROJECT_DIR$/src/tp8/ej8/ArrayFilterList.java" />
+        <option value="$PROJECT_DIR$/src/tp8/ej8/FilterListTester.java" />
       </list>
     </option>
   </component>
@@ -102,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -125,7 +145,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -163,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BagTester">
+  <component name="RunManager" selected="Application.FilterListTester">
     <configuration name="BagTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tp8.ej7.BagTester" />
       <module name="Java" />
@@ -197,6 +216,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="FilterListTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp8.ej8.FilterListTester" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tp8.ej8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="FunctionTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tp8.ej6.FunctionTester" />
       <module name="Java" />
@@ -204,17 +234,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tp8.ej6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="IntervalTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tp8.ej3.IntervalTester" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tp8.ej3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,19 +280,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.IntervalTester" />
       <item itemvalue="Application.Ej4" />
       <item itemvalue="Application.Ej5" />
       <item itemvalue="Application.FunctionTester" />
       <item itemvalue="Application.BagTester" />
+      <item itemvalue="Application.FilterListTester" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FilterListTester" />
         <item itemvalue="Application.BagTester" />
         <item itemvalue="Application.FunctionTester" />
         <item itemvalue="Application.Ej5" />
         <item itemvalue="Application.Ej4" />
-        <item itemvalue="Application.IntervalTester" />
       </list>
     </recent_temporary>
   </component>
@@ -303,11 +322,12 @@
       <workItem from="1540575305539" duration="2527000" />
       <workItem from="1540760656636" duration="2632000" />
       <workItem from="1540846532236" duration="8752000" />
+      <workItem from="1540923982035" duration="1755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89797000" />
+    <option name="totallyTimeSpent" value="91552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -326,14 +346,14 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6518283" visible="true" weight="0.3007353" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.65023845" visible="true" weight="0.3007353" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.3481717" side_tool="true" visible="true" weight="0.3007353" />
+      <window_info id="Favorites" order="6" sideWeight="0.34976152" side_tool="true" visible="true" weight="0.3007353" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -350,34 +370,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tp6/ej10/Ej1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tp6/ej10/Ej2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tp6/ej10/Ej3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tp6/ej10/Ej4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tp6/ej10/Ej5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -714,6 +706,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tp8/ej8/FilterList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tp8/ej8/Criteria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tp8/ej8/ArrayFilterList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tp8/ej8/FilterListTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
