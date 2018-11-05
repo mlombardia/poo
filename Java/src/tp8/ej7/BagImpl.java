@@ -7,7 +7,7 @@ import java.util.NoSuchElementException;
 
 public class BagImpl<T> implements Bag<T>{
 
-    private Map<T,Integer> bag= new HashMap<>();
+    protected Map<T,Integer> bag= new HashMap<>();
 
     @Override
     public void add(T elem) {
