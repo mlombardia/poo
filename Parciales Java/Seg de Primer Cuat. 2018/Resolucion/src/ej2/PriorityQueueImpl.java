@@ -1,40 +1,46 @@
 package ej2;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class PriorityQueueImpl<E> implements PriorityQueue<E>{
 
-    Map<Integer, List<E>> queue = new TreeMap<>();
+    private TreeSet<PriorityQueueElement<E>> elements = new TreeSet<>();
+    private int elementCount;
 
     @Override
     public void enqueue(E element, int priority) {
-        if (queue.containsKey(priority)){
-            queue.get(priority).add(element);
-        }else{
-            queue.put(priority, new ArrayList<>());
-        }
+        elements.add(new PriorityQueueElement<>(element, priority, elementCount++));
     }
 
     @Override
     public E dequeue() {
-        return queue.get(1).get(1);
+        Iterator<PriorityQueueElement<E>> aux = elements.iterator();
+        PriorityQueueElement<E> pqElement = aux.next();
+        aux.remove();
+        return pqElement.getElement();
     }
 
     @Override
     public boolean isEmpty() {
-        return queue.isEmpty();
+        return elements.isEmpty();
     }
 
     @Override
     public int size() {
-        return queue.size();
+        return elements.size();
     }
 
     @Override
     public int size(int priority) {
-        return queue.get(priority).size();
+        int count = 0;
+        for(PriorityQueueElement<E> priorityQueueElement : elements){
+            if(priorityQueueElement.getPriority() == priority){
+                count++;
+            }
+            if (priorityQueueElement.getPriority() > priority){
+                break;
+            }
+        }
+        return count;
     }
 }
