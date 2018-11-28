@@ -1,10 +1,10 @@
 # POO Repo
-Buenas! Este es el repo de mi segunda cursada de POO. Esto tiene el objetivo de ser de referencia para aquel que lo necesite. Hay algunos ejercicios que estan como en la solucion de la guia, y en algunos otros se puede encontrar una solucion de mi autoria. Eso si, TODO FUNCIONA! 
+Buenas! Este es el repo de mi segunda cursada de POO. Esto tiene el objetivo de ser de referencia para aquel que lo necesite. Hay algunos ejercicios que están como en la solución de la guía, y en algunos otros se puede encontrar una solución de mí autoría. Eso sí, TODO FUNCIONA! 
 
-##### Que tiene esto? 
-Practicas resueltas de Ruby y Java, ejemplo de browser con JavaFX y algunos parciales de Java.
+##### Qué tiene esto? 
+Prácticas resueltas de Ruby y Java, ejemplo de browser con JavaFX y algunos parciales de Java.
 
-##### Que NO tiene (y voy a estar intentando subir)? 
+##### Qué NO tiene (y voy a estar intentando subir)? 
 Los parciales de Ruby, el parcial de Java del segundo cuat. 2018, los talleres y el TP Final.
 
 ## Unos consejos:
