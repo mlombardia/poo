@@ -1,5 +1,5 @@
 # POO Repo
-Buenas! Este es el repo de mi segunda cursada de POO. Esto tiene el objetivo de ser de referencia para aquel que lo necesite. Hay algunos ejercicios que están como en la solución de la guía, y en algunos otros se puede encontrar una solución de mí autoría. Eso sí, TODO FUNCIONA! 
+Buenas! Este es el repo de mi segunda cursada de POO. Esto tiene el objetivo de ser de referencia para aquel que lo necesite. Hay algunos ejercicios que están como en la solución de la guía, y en algunos otros se puede encontrar una solución de mí autoría. Eso sí, TODO FUNCIONA (creo)! 
 
 ##### Qué tiene esto? 
 Prácticas resueltas de Ruby y Java, ejemplo de browser con JavaFX y algunos parciales de Java.
