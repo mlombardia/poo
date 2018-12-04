@@ -5,7 +5,7 @@ Buenas! Este es el repo de mi segunda cursada de POO. Esto tiene el objetivo de 
 Prácticas resueltas de Ruby y Java, ejemplo de browser con JavaFX y algunos parciales de Java.
 
 ##### Qué NO tiene (y voy a estar intentando subir)? 
-Los parciales de Ruby, el parcial de Java del segundo cuat. 2018, los talleres y el TP Final.
+Los parciales de Ruby, el parcial de Java del segundo cuat. 2018, los talleres y el TP Final (no terminado).
 
 ## Unos consejos:
 - RUBY EN LINUX, JAVA NO IMPORTA SO PERO QUE SEA EN INTELLIJ
