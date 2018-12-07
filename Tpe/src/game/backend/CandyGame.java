@@ -15,11 +15,7 @@ public class CandyGame implements GameListener {
     }
 
     public void initGame() {
-        try {
-            grid = (Grid)Level1.newInstance();
-        } catch(IllegalAccessException | InstantiationException e) {
-            System.out.println("ERROR AL INICIAR");
-        }
+        grid = new Level1();
         state = grid.createState();
         grid.initialize();
         addGameListener(this);

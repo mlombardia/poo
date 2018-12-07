@@ -16,7 +16,7 @@ public class GameApp extends Application{
 
     @Override
     public void start(Stage primaryStage) {
-        CandyGame game = new CandyGame(Level1.class);
+        CandyGame game = new CandyGame(new Level1());
         CandyFrame frame = new CandyFrame(game);
         Scene scene1 = new Scene(frame);
         stage = primaryStage;
@@ -29,7 +29,7 @@ public class GameApp extends Application{
     private static Stage stage;
 
     public static void modifyLevel(Level level){
-        CandyGame game = new CandyGame(Level1.class);
+        CandyGame game = new CandyGame(new Level1());
         CandyFrame frame = new CandyFrame(game);
         Scene scene = new Scene(frame);
         stage.setScene(scene);

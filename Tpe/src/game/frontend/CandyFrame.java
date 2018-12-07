@@ -88,7 +88,7 @@ public class CandyFrame extends VBox{
                             Optional<ButtonType> result = alert.showAndWait();
                             if(result.isPresent()) {
                                 if (result.get() == ButtonType.OK) {
-                                    GameApp.modifyLevel(Level1.class);
+                                    GameApp.modifyLevel(new Level1());
                                 }
                             }
                         } else {
