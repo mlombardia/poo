@@ -5,13 +5,20 @@ import game.backend.GameListener;
 import game.backend.cell.Cell;
 import game.backend.element.Element;
 
+import game.backend.level.Level1;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
+import javafx.application.Platform;
 import javafx.geometry.Point2D;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
 import javafx.util.Duration;
+
+import java.util.Optional;
+import java.util.logging.Level;
 
 public class CandyFrame extends VBox{
     private static final int CELL_SIZE = 65;
@@ -21,6 +28,7 @@ public class CandyFrame extends VBox{
     private ImageManager images;
     private Point2D lastPoint;
     private CandyGame game;
+    private boolean goBack = false;
 
     public CandyFrame(CandyGame game) {
         this.game = game;
@@ -69,12 +77,32 @@ public class CandyFrame extends VBox{
                 if (newPoint != null) {
                     System.out.println("Get second = " +  newPoint);
                     game().tryMove((int)lastPoint.getX(), (int)lastPoint.getY(), (int)newPoint.getX(), (int)newPoint.getY());
-                    String message = ((Long)game().getScore()).toString();
+                    String message = game().getMoves() + " " + ((Long)game().getScore()).toString();
                     if (game().isFinished()) {
                         if (game().playerWon()) {
                             message = message + " Finished - Player Won!";
+                            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                            alert.setTitle("GANASTE!");
+                            alert.setHeaderText("GANASTE!");
+                            alert.setContentText("Ganaste!");
+                            Optional<ButtonType> result = alert.showAndWait();
+                            if(result.isPresent()) {
+                                if (result.get() == ButtonType.OK) {
+                                    GameApp.modifyLevel(Level1.class);
+                                }
+                            }
                         } else {
                             message = message + " Finished - Loser !";
+                            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                            alert.setTitle("PERDISTE!");
+                            alert.setHeaderText("PERDISTE!");
+                            alert.setContentText("Perdiste!");
+                            Optional<ButtonType> result = alert.showAndWait();
+                            if(result.isPresent()) {
+                                if (result.get() == ButtonType.OK) {
+                                    Platform.exit();
+                                }
+                            }
                         }
                     }
                     scorePanel.updateScore(message);
@@ -93,5 +121,9 @@ public class CandyFrame extends VBox{
         double i = x / CELL_SIZE;
         double j = y / CELL_SIZE;
         return (i >= 0 && i < game.getSize() && j >= 0 && j < game.getSize()) ? new Point2D(j, i) : null;
+    }
+
+    public boolean goBack(){
+        return goBack;
     }
 }

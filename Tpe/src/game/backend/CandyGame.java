@@ -2,19 +2,21 @@ package game.backend;
 
 import game.backend.cell.Cell;
 import game.backend.element.Element;
+import game.backend.level.Level;
+import game.backend.level.Level1;
 
 public class CandyGame implements GameListener {
-    private Class<?> levelClass;
+    private Level level;
     private Grid grid;
     private GameState state;
 
-    public CandyGame(Class<?> clazz) {
-        this.levelClass = clazz;
+    public CandyGame(Level level) {
+        this.level = level;
     }
 
     public void initGame() {
         try {
-            grid = (Grid)levelClass.newInstance();
+            grid = (Grid)Level1.newInstance();
         } catch(IllegalAccessException | InstantiationException e) {
             System.out.println("ERROR AL INICIAR");
         }
@@ -59,5 +61,9 @@ public class CandyGame implements GameListener {
     @Override
     public void gridUpdated() {
         //
+    }
+
+    public int getMoves(){
+        return state.getMoves();
     }
 }
